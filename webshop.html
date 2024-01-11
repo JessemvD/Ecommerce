@@ -4,9 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Schoenen</title>
+    <link rel="stylesheet" href="css/nav.css">
 </head>
 <body>
-    
+    <nav>
+      <a class="logo" href="index.html">Schoenen</a>
+        <div class="search-icon"><span class="fas fa-search"></span></div>
+        <div class="cancel-icon"><span class="fas fa-times"></span></div>
+        
+        <div class="form-parent">
+          <form action="#">
+            <input  type="search" class="search-data" placeholder="Search"  required />
+            <button type="submit" class="fas fa-search"><img class="search-img" src="img/search.png" alt="" /></button>
+          </form>
+        </div>
+        
+        <div class="nav-items">
+          <li>
+            <a href="#">
+              <img class="nav-items-img" src="img/cart.png" alt=""/>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="nav-items-img" src="img/user.png" alt=""/>
+              <div class="dropdown-content">
+                <center>
+                  <div>
+                    <p>Login</p>
+                  </div>
+                </center>
+              </div>
+            </a>
+          </li>
+        </div>
+      </nav>
+  
 </body>
 </html>

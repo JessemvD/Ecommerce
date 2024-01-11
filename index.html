@@ -2,13 +2,14 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <title>Schoenen</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/nav.css">
   </head>
   <body>
     <nav>
-      <div class="logo">Schoenen</div>
+      <a class="logo" href="index.html">Schoenen</a>
       <div class="search-icon"><span class="fas fa-search"></span></div>
       <div class="cancel-icon"><span class="fas fa-times"></span></div>
       
@@ -39,7 +40,9 @@
         </li>
       </div>
     </nav>
-
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div> 
     <div class="hero">
       <center>
          <a href="webshop.html">
@@ -59,22 +62,16 @@
               <p>Heren</p>
               <p class="hero-right-hidden">Ontdek alle heren schoenen</p> 
           </div>
-          <img class="hero-right-img" src="img/hero-heren.avif" alt="img">        
+          <img class="hero-right-img" src="img/hero-heren.avif" alt="img">   
       </div>
       </a>
       </center>
     </div>
+
+
     <div class="new-items">
     <center><h1>Nieuw toegevoegd</h1></center>
-      <ul class="auto-grid">
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
-        <li>Item 5</li>
-
-      </ul>
-     </div>
+ 
 
     <script src="js/index.js"></script>
   </body>
